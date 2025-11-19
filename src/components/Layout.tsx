@@ -86,10 +86,8 @@ export const Layout = ({
               </SheetContent>
             </Sheet>
             <Link to="/" className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold">
-                MC
-              </div>
-              <span className="font-semibold text-lg hidden sm:inline-block">Curso Cuidados Informales en entorno domiciliario</span>
+              
+              <span className="font-semibold hidden sm:inline-block text-2xl">Curso Cuidados Informales en entorno domiciliario</span>
             </Link>
           </div>
         </div>
