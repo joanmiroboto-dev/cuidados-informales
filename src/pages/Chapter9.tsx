@@ -2,10 +2,8 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter9-falls.jpg';
-
 const Chapter9 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Prevención de Caídas" className="w-full h-full object-cover" />
       </div>
@@ -125,7 +123,7 @@ const Chapter9 = () => {
 
         <p className="font-semibold">Si hay cualquier duda → consultar con profesionales sanitarios.</p>
 
-        <h2>9.5. Sistemas de alerta y teleasistencia</h2>
+        <h2 className="text-xl">9.5. Sistemas de alerta y teleasistencia</h2>
         <p>Existen dispositivos que detectan caídas y pueden avisar automáticamente al cuidador o a un servicio profesional:</p>
         <ul>
           <li>Detectores de caída integrados en pulseras o colgantes</li>
@@ -150,8 +148,6 @@ const Chapter9 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter9;
