@@ -25,7 +25,7 @@ const Chapter8 = () => {
 
       </p>
 
-        <h2 className="font-bold text-2xl bg-lime-100">8.1. ¿Por qué es importante prevenirlas?</h2>
+        <h2 className="font-bold text-2xl bg-lime-100 text-center">8.1. ¿Por qué es importante prevenirlas?</h2>
         <p>
 
 Las úlceras por presión:</p>
@@ -45,10 +45,14 @@ Las úlceras por presión:</p>
           <li>Tobillos</li>
           <li>Codos</li>
           <li>Omóplatos</li>
-          <li>Orejas en personas que usan mascarillas rígidas o están encamadas de lado</li>
+          <li>Orejas en personas que usan mascarillas rígidas o están encamadas de lado
+
+        </li>
         </ul>
 
-        <h2>8.2. Factores de riesgo</h2>
+        <h2 className="bg-lime-100 text-2xl font-bold text-center">
+
+8.2. Factores de riesgo</h2>
 
         <h3>Factores intrínsecos (de la persona)</h3>
         <ul>
