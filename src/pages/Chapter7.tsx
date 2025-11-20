@@ -2,17 +2,15 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter7-incontinence.jpg';
-
 const Chapter7 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Incontinencia Urinaria" className="w-full h-full object-cover" />
       </div>
 
       <div className="space-y-2">
         <div className="text-sm text-primary font-semibold">Capítulo 7</div>
-        <h1 className="text-4xl font-bold">Incontinencia Urinaria</h1>
+        <h1 className="text-4xl font-bold text-center">Incontinencia Urinaria</h1>
       </div>
 
       <div className="prose prose-lg max-w-none">
@@ -147,8 +145,6 @@ const Chapter7 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter7;
