@@ -10,7 +10,7 @@ const Chapter8 = () => {
 
       <div className="space-y-2">
         <div className="text-sm text-primary font-semibold">Capítulo 8</div>
-        <h1 className="text-4xl font-bold">Úlceras por Presión</h1>
+        <h1 className="text-4xl font-bold bg-lime-100">Úlceras por Presión</h1>
       </div>
 
       <div className="prose prose-lg max-w-none">
@@ -19,7 +19,11 @@ const Chapter8 = () => {
 
         </p>
 
-        <p className="font-semibold text-xl">La prevención es siempre la mejor estrategia.</p>
+        <p className="font-semibold text-xl">La prevención es siempre la mejor estrategia.
+
+
+
+      </p>
 
         <h2 className="font-bold text-2xl bg-lime-100">8.1. ¿Por qué es importante prevenirlas?</h2>
         <p>
