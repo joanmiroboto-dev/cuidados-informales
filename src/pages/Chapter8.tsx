@@ -128,12 +128,16 @@ Técnica: Usar almohadas o cojines para aliviar zonas de apoyo</h2>
         <ul>
           <li>Sedestación (sentarse en sillón) varias veces al día</li>
           <li>Estimular que la persona cambie de postura si puede hacerlo</li>
-          <li>Realizar ejercicios pasivos o activos con ayuda de fisioterapeuta</li>
+          <li>Realizar ejercicios pasivos o activos con ayuda de fisioterapeuta
+
+        </li>
         </ul>
 
-        <h2>8.4. Estadios de las úlceras por presión</h2>
+        <h2 className="text-center text-2xl bg-lime-100 font-bold">8.4. Estadios de las úlceras por presión</h2>
 
-        <h3>Estadio I</h3>
+        <h3>
+
+Estadio I</h3>
         <p>Piel intacta con enrojecimiento que no desaparece al presionar. Puede haber dolor, calor o cambio de textura.</p>
 
         <h3>Estadio II</h3>
@@ -150,8 +154,10 @@ Técnica: Usar almohadas o cojines para aliviar zonas de apoyo</h2>
           <p className="mb-0">Ante la aparición de cualquier lesión cutánea, consulte siempre con profesionales sanitarios para valoración y tratamiento adecuado. Las úlceras por presión requieren cuidados especializados.</p>
         </div>
 
-        <h2>8.5. Tratamiento básico</h2>
-        <p>El tratamiento debe ser realizado por profesionales de enfermería. El cuidador puede colaborar:</p>
+        <h2 className="bg-lime-100 text-center">8.5. Tratamiento básico</h2>
+        <p>
+
+El tratamiento debe ser realizado por profesionales de enfermería. El cuidador puede colaborar:</p>
         <ul>
           <li>Mantener la zona limpia según indicaciones</li>
           <li>Cambiar apósitos siguiendo las instrucciones</li>
