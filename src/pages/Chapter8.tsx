@@ -70,7 +70,15 @@ Las úlceras por presión:</p>
           <li>Uso de superficies duras o arrugas en la ropa de cama</li>
         </ul>
 
-        <h2>8.3. Medidas de prevención</h2>
+        <h2>
+
+Frecuencia: Cada 2–3 horas en personas encamadas
+Posiciones recomendadas:
+Decúbito supino (boca arriba)
+Decúbito lateral derecho
+Decúbito lateral izquierdo
+Evitar decúbito prono si es posible (boca abajo)
+Técnica: Usar almohadas o cojines para aliviar zonas de apoyo</h2>
 
         <h3>A) Cambios posturales</h3>
         <p>Evitan que la presión se mantenga en un mismo punto durante mucho tiempo.</p>
