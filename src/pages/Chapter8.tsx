@@ -2,10 +2,8 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter8-pressure.jpg';
-
 const Chapter8 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Úlceras por Presión" className="w-full h-full object-cover" />
       </div>
@@ -18,6 +16,7 @@ const Chapter8 = () => {
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-muted-foreground lead">
           Las úlceras por presión (UPP), también llamadas úlceras por decúbito, son lesiones de la piel y tejidos subyacentes causadas por una presión mantenida entre una prominencia ósea y una superficie dura (cama, silla, etc.). Son frecuentes en personas mayores con movilidad reducida y constituyen un problema serio que puede afectar gravemente su calidad de vida.
+
         </p>
 
         <p className="font-semibold text-xl">La prevención es siempre la mejor estrategia.</p>
@@ -158,8 +157,6 @@ const Chapter8 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter8;
