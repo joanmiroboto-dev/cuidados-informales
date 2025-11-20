@@ -20,7 +20,7 @@ const Chapter1 = () => {
 
         </p>
 
-        <h2>1.1. ¿Qué implica ser cuidador?</h2>
+        <h2 className="text-xl">1.1. ¿Qué implica ser persona cuidadora?</h2>
         <p>Asumir el rol de cuidador significa:</p>
         <ul>
           <li>Responsabilizarse de todas las actividades esenciales de la vida diaria de la persona mayor: higiene, alimentación, vestido, medicación, movilidad, seguridad, etc.</li>
@@ -33,7 +33,7 @@ const Chapter1 = () => {
           "El cuidador desconoce cuánto tiempo desempeñará este rol. Por ello, debe formarse, organizarse y prepararse para hacerlo en las mejores condiciones posibles."
         </blockquote>
 
-        <h2>1.2. ¿Qué puede hacer para cuidarse?</h2>
+        <h2 className="text-xl">1.2. ¿Qué puede hacer para cuidarse?</h2>
         <ul>
           <li>Atienda de forma activa a su propia salud física y emocional.</li>
           <li>Evite el aislamiento: mantenga el contacto con familiares, amistades y comunidad.</li>
@@ -49,7 +49,7 @@ const Chapter1 = () => {
           "Esté atento a las señales de sobrecarga. ¡Pida ayuda a tiempo!"
         </blockquote>
 
-        <h2>1.3. Duelo</h2>
+        <h2 className="text-xl">1.3. Duelo</h2>
         <p>
           El duelo es un proceso de adaptación emocional tras la pérdida de la persona cuidada. Es una experiencia natural, aunque siempre genera impacto y requiere tiempo.
         </p>
