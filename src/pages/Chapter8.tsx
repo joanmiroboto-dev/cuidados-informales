@@ -21,8 +21,10 @@ const Chapter8 = () => {
 
         <p className="font-semibold text-xl">La prevención es siempre la mejor estrategia.</p>
 
-        <h2>8.1. ¿Por qué es importante prevenirlas?</h2>
-        <p>Las úlceras por presión:</p>
+        <h2 className="font-bold text-2xl bg-lime-100">8.1. ¿Por qué es importante prevenirlas?</h2>
+        <p>
+
+Las úlceras por presión:</p>
         <ul>
           <li>Producen dolor, malestar e incapacidad</li>
           <li>Aumentan el riesgo de infecciones locales y sistémicas</li>
