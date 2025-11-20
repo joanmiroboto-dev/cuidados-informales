@@ -2,10 +2,8 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter1-selfcare.jpg';
-
 const Chapter1 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Cuídese para poder cuidar" className="w-full h-full object-cover" />
       </div>
@@ -18,6 +16,8 @@ const Chapter1 = () => {
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-muted-foreground lead">
           Cuidar a una persona mayor dependiente implica ofrecer apoyo continuado para mantener su bienestar físico, emocional y social. El cuidador principal asume la supervisión global de los cuidados, por lo que es esencial que también cuide de sí mismo para mantener la calidad de la atención.
+
+
         </p>
 
         <h2>1.1. ¿Qué implica ser cuidador?</h2>
@@ -83,8 +83,6 @@ const Chapter1 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter1;
