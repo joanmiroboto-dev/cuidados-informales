@@ -2,17 +2,15 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter6-nutrition.jpg';
-
 const Chapter6 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Alimentación e Hidratación" className="w-full h-full object-cover" />
       </div>
 
       <div className="space-y-2">
         <div className="text-sm text-primary font-semibold">Capítulo 6</div>
-        <h1 className="text-4xl font-bold">Alimentación y Nutrición</h1>
+        <h1 className="text-4xl font-bold text-center bg-blue-50">Alimentación y Nutrición</h1>
       </div>
 
       <div className="prose prose-lg max-w-none">
@@ -20,7 +18,9 @@ const Chapter6 = () => {
           La alimentación es un pilar fundamental en la salud de las personas mayores dependientes. Con la edad disminuyen las necesidades energéticas, pero aumentan los riesgos de malnutrición, deshidratación y complicaciones asociadas. Una dieta adecuada contribuye a mantener la fuerza, prevenir enfermedades y mejorar la calidad de vida.
         </p>
 
-        <h2>6.1. La malnutrición en personas mayores</h2>
+        <h2 className="text-center text-2xl font-bold bg-indigo-50">
+
+6.1. La malnutrición en personas mayores</h2>
         <p>Las personas mayores dependientes son especialmente vulnerables a la malnutrición. Puede aparecer por:</p>
         <ul>
           <li>Pérdida de apetito</li>
@@ -37,10 +37,12 @@ const Chapter6 = () => {
           <li>Fracturas</li>
           <li>Sarcopenia (pérdida muscular)</li>
           <li>Deterioro cognitivo</li>
-          <li>Infecciones</li>
+          <li>Infecciones
+
+        </li>
         </ul>
 
-        <h2>6.2. Consejos generales para una alimentación adecuada</h2>
+        <h2 className="bg-indigo-50 text-2xl font-bold text-center">6.2. Consejos generales para una alimentación adecuada</h2>
         <ul>
           <li>Realizar cuatro comidas diarias: desayuno, comida, merienda y cena</li>
           <li>Se puede añadir una ingesta a media mañana</li>
@@ -172,8 +174,6 @@ const Chapter6 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter6;
