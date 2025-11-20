@@ -63,7 +63,7 @@ export const Layout = ({
       {chapters.map(chapter => <Link key={chapter.id} to={chapter.path} className={`px-4 py-2 rounded-lg transition-colors ${location.pathname === chapter.path ? 'bg-primary text-primary-foreground' : 'hover:bg-muted'}`} onClick={() => setOpen(false)}>
           <div className="flex flex-col">
             <span className="text-xs text-muted-foreground">Capítulo {chapter.id}</span>
-            <span className="font-medium">{chapter.title}</span>
+            <span className="font-medium text-lg">{chapter.title}</span>
           </div>
         </Link>)}
     </nav>;

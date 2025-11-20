@@ -54,7 +54,9 @@ Las úlceras por presión:</p>
 
 8.2. Factores de riesgo</h2>
 
-        <h3>Factores intrínsecos (de la persona)</h3>
+        <h3>
+
+Factores intrínsecos (de la persona)</h3>
         <ul>
           <li>Edad avanzada</li>
           <li>Inmovilidad o movilidad reducida</li>
@@ -149,7 +151,7 @@ Estadio I</h3>
         <h3>Estadio IV</h3>
         <p>Pérdida total del tejido con exposición de hueso, tendón o músculo. Suele haber tejido necrótico y tunelización extensa.</p>
 
-        <div className="bg-muted p-4 rounded-lg my-6">
+        <div className="p-4 rounded-lg my-6 bg-lime-50">
           <h4>❗ Importante</h4>
           <p className="mb-0">Ante la aparición de cualquier lesión cutánea, consulte siempre con profesionales sanitarios para valoración y tratamiento adecuado. Las úlceras por presión requieren cuidados especializados.</p>
         </div>
