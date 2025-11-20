@@ -87,7 +87,7 @@ export const Layout = ({
             </Sheet>
             <Link to="/" className="flex items-center gap-2">
               
-              <span className="font-semibold hidden sm:inline-block text-2xl">Curso Cuidados Informales en entorno domiciliario</span>
+              <span className="font-semibold hidden sm:inline-block text-3xl">Curso Cuidados Informales en entorno domiciliario</span>
             </Link>
           </div>
         </div>
