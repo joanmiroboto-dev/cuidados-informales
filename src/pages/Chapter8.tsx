@@ -10,7 +10,7 @@ const Chapter8 = () => {
 
       <div className="space-y-2">
         <div className="text-sm text-primary font-semibold">Capítulo 8</div>
-        <h1 className="text-4xl font-bold bg-lime-100">Úlceras por Presión</h1>
+        <h1 className="text-4xl font-bold bg-lime-100 text-center">Úlceras por Presión</h1>
       </div>
 
       <div className="prose prose-lg max-w-none">
