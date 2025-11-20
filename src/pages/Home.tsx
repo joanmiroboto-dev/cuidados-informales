@@ -12,6 +12,7 @@ import chapter7Img from '@/assets/chapter7-incontinence.jpg';
 import chapter8Img from '@/assets/chapter8-pressure.jpg';
 import chapter9Img from '@/assets/chapter9-falls.jpg';
 import chapter10Img from '@/assets/chapter10-medication.jpg';
+
 const chapters = [{
   id: 1,
   title: 'Cuídese para poder cuidar',
@@ -73,19 +74,25 @@ const chapters = [{
   path: '/capitulo-10',
   image: chapter10Img
 }];
+
 const Home = () => {
-  return <div className="space-y-12">
+  return (
+    <div className="space-y-12">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-2xl">
         <div className="relative h-[400px] bg-cover bg-center" style={{
-        backgroundImage: `url(${heroImage})`
-      }}>
+          backgroundImage: `url(${heroImage})`
+        }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/80" />
           <div className="relative h-full flex flex-col justify-center px-8 md:px-16 text-white">
-            <h1 className="text-4xl font-bold mb-4 md:text-4xl">Cuidados Informales en entorno domiciliario               </h1>
-            <p className="text-xl md:text-2xl mb-2 max-w-2xl">Material cedido por Silvia Navarro Soriano                                                                                                                                                                                                                                                                                                                                                                                                                                        </p>
+            <h1 className="text-4xl font-bold mb-4 md:text-4xl">Cuidados Informales en entorno domiciliario</h1>
+            <p className="text-xl md:text-2xl mb-2 max-w-2xl">Material cedido por la autora:</p>
+            <p className="text-lg font-semibold max-w-2xl">Silvia Navarro Soriano</p>
             <p className="text-lg opacity-90 max-w-2xl">
-              Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia              
+              Enfermera SESCV y Docente UV
+            </p>
+            <p className="text-sm opacity-80 max-w-2xl mt-2">
+              Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia
             </p>
           </div>
         </div>
@@ -104,10 +111,15 @@ const Home = () => {
       <section className="space-y-4">
         <h2 className="text-3xl font-bold">Índice de Capítulos</h2>
         <div className="grid gap-6 md:grid-cols-2">
-          {chapters.map(chapter => <Link key={chapter.id} to={chapter.path}>
+          {chapters.map(chapter => (
+            <Link key={chapter.id} to={chapter.path}>
               <Card className="h-full transition-all hover:shadow-[var(--card-shadow-hover)] group">
                 <div className="aspect-video overflow-hidden rounded-t-lg">
-                  <img src={chapter.image} alt={chapter.title} className="w-full h-full object-cover transition-transform group-hover:scale-105" />
+                  <img 
+                    src={chapter.image} 
+                    alt={chapter.title} 
+                    className="w-full h-full object-cover transition-transform group-hover:scale-105" 
+                  />
                 </div>
                 <CardHeader>
                   <div className="flex items-start justify-between gap-2">
@@ -124,9 +136,12 @@ const Home = () => {
                   <CardDescription>{chapter.description}</CardDescription>
                 </CardHeader>
               </Card>
-            </Link>)}
+            </Link>
+          ))}
         </div>
       </section>
-    </div>;
+    </div>
+  );
 };
+
 export default Home;
