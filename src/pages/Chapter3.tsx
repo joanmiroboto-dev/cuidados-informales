@@ -66,7 +66,7 @@ const Chapter3 = () => {
         </li>
         </ul>
 
-        <h2 className="font-bold">3.4. Orden recomendado de lavado en cama</h2>
+        <h2 className="font-bold text-2xl">3.4. Orden recomendado de lavado en cama</h2>
         <ol>
           <li>Cara (solo con agua), orejas y cuello</li>
           <li>Brazos y axilas; permitir que se lave las manos si puede</li>
@@ -77,40 +77,56 @@ const Chapter3 = () => {
           <li>De nuevo boca arriba: cambiar el agua y lavar zona genital</li>
           <li>Secar todos los pliegues cuidadosamente</li>
           <li>Aplicar crema hidratante</li>
-          <li>Inspeccionar la piel</li>
+          <li>Inspeccionar la piel
+
+        </li>
         </ol>
 
-        <h2>3.5. Higiene genital en cama</h2>
-        <h3>Procedimiento</h3>
-        <p>Colocar una cuña o protector. Rociar agua templada desde pubis hacia el ano. Lavar con jabón neutro y aclarar.</p>
+        <h2 className="font-bold text-2xl">3.5. Higiene genital en cama
 
-        <h3>En mujeres</h3>
-        <p>Lavar siempre de adelante hacia atrás.</p>
+      </h2>
+        <h3 className="font-bold">Procedimiento</h3>
+        <p>Colocar una cuña o protector. Rociar agua templada desde pubis hacia el ano. Lavar con jabón neutro y aclarar.
 
-        <h3>En hombres</h3>
+      </p>
+
+        <h3 className="font-bold">En mujeres</h3>
+        <p>Lavar siempre de adelante hacia atrás.
+
+      </p>
+
+        <h3 className="font-bold">En hombres</h3>
         <p>Retirar el prepucio, lavar el glande y volver a cubrirlo tras secar.</p>
 
         <h3>Recomendaciones</h3>
         <ul>
           <li>Secar bien los pliegues</li>
           <li>Usar crema barrera en caso de incontinencia</li>
-          <li>Realizar higiene genital diariamente</li>
+          <li>Realizar higiene genital diariamente
+
+        </li>
         </ul>
 
-        <h2>3.6. Lavado del pelo en cama</h2>
+        <h2 className="text-2xl font-bold">3.6. Lavado del pelo en cama</h2>
         <ul>
           <li>Proteger cuello con toalla</li>
           <li>Colocar cabeza en el borde y usar un plástico que haga canal hacia un cubo</li>
           <li>Mojar, aplicar champú y aclarar</li>
           <li>Si el cabecero es retirable, lavar desde la parte superior</li>
           <li>Se pueden usar productos de limpieza en seco</li>
-          <li>Existen dispositivos portátiles e hinchables para facilitar el lavado</li>
+          <li>Existen dispositivos portátiles e hinchables para facilitar el lavado
+
+
+
+        </li>
         </ul>
 
-        <h2>3.7. Higiene bucal</h2>
-        <p>Objetivo: mantener mucosa oral hidratada, prevenir infecciones, evitar mal olor y facilitar la alimentación.</p>
+        <h2 className="text-2xl font-bold">3.7. Higiene bucal</h2>
+        <p>Objetivo: mantener mucosa oral hidratada, prevenir infecciones, evitar mal olor y facilitar la alimentación.
 
-        <h2>3.8. Higiene ocular</h2>
+      </p>
+
+        <h2 className="text-2xl font-bold">3.8. Higiene ocular</h2>
         <ul>
           <li>Humedecer una gasa con suero fisiológico</li>
           <li>Limpiar del ángulo interno al externo</li>
@@ -118,27 +134,35 @@ const Chapter3 = () => {
           <li>Con párpados cerrados</li>
           <li>Abrir párpados suavemente y aplicar suero desde el lado opuesto al lagrimal</li>
           <li>Usar una jeringa estéril por cada ojo</li>
-          <li>Secar con gasa estéril</li>
+          <li>Secar con gasa estéril
+
+        </li>
         </ul>
 
-        <h2>3.9. Cuidado de manos y pies</h2>
+        <h2 className="text-2xl font-bold">3.9. Cuidado de manos y pies</h2>
         <ul>
           <li>Lavar con agua templada y jabón</li>
           <li>Secar bien, sobre todo entre los dedos</li>
           <li>Valorar el tamaño de uñas semanalmente</li>
           <li>Cortar uñas tras el baño</li>
           <li>En pies, cortar en línea recta</li>
-          <li>Vigilar heridas (especial atención a diabéticos)</li>
+          <li>Vigilar heridas (especial atención a diabéticos)
+
+        </li>
         </ul>
 
-        <h2>3.10. Lavado de manos: tipos</h2>
-        <p>El lavado de manos es un procedimiento esencial que previene contagios y reduce riesgos clínicos.</p>
+        <h2 className="text-2xl font-bold">3.10. Lavado de manos: tipos</h2>
+        <p>El lavado de manos es un procedimiento esencial que previene contagios y reduce riesgos clínicos.
 
-        <h3>Tipos de lavado</h3>
+      </p>
+
+        <h3 className="text-lg font-bold">Tipos de lavado</h3>
         <ul>
           <li>Lavado higiénico o convencional</li>
           <li>Lavado antiséptico asistencial</li>
-          <li>Lavado quirúrgico</li>
+          <li>Lavado quirúrgico
+
+        </li>
         </ul>
 
         <h3>Tiempos de referencia</h3>
