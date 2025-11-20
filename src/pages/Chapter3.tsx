@@ -2,10 +2,8 @@ import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import chapterImg from '@/assets/chapter3-hygiene.jpg';
-
 const Chapter3 = () => {
-  return (
-    <div className="space-y-8">
+  return <div className="space-y-8">
       <div className="aspect-video overflow-hidden rounded-xl">
         <img src={chapterImg} alt="Higiene Personal" className="w-full h-full object-cover" />
       </div>
@@ -16,16 +14,18 @@ const Chapter3 = () => {
       </div>
 
       <div className="prose prose-lg max-w-none">
-        <h2>3.1. Objetivos de la higiene personal</h2>
+        <h2 className="font-bold text-2xl">3.1. Objetivos de la higiene personal</h2>
         <ul>
           <li>Contribuir al bienestar físico, psicológico y emocional de la persona cuidada</li>
           <li>Prevenir infecciones, irritaciones y lesiones cutáneas</li>
           <li>Mantener la piel limpia, hidratada y en buen estado</li>
           <li>Favorecer la autonomía y el autocuidado en la medida de lo posible</li>
-          <li>Educar a la persona y a la familia en hábitos higiénicos adecuados</li>
+          <li>Educar a la persona y a la familia en hábitos higiénicos adecuados
+
+        </li>
         </ul>
 
-        <h2>3.2. Antes de iniciar la higiene</h2>
+        <h2 className="text-2xl font-bold">3.2. Antes de iniciar la higiene</h2>
         <ul>
           <li>Preservar la intimidad y dignidad de la persona mayor</li>
           <li>Valorar el grado de autonomía y fomentar su participación</li>
@@ -37,10 +37,12 @@ const Chapter3 = () => {
           <li>Mantener temperatura ambiente entre 24–25 ºC</li>
           <li>Evitar corrientes de aire</li>
           <li>Verificar que el agua esté a 35–36 ºC</li>
-          <li>Enjabonar siempre con movimientos suaves y circulares</li>
+          <li>Enjabonar siempre con movimientos suaves y circulares
+
+        </li>
         </ul>
 
-        <h2>3.3. Consejos para la higiene en cama</h2>
+        <h2 className="text-2xl font-bold">3.3. Consejos para la higiene en cama</h2>
         <h3>Preparación</h3>
         <ul>
           <li>Cambie el agua tantas veces como sea necesario</li>
@@ -59,10 +61,12 @@ const Chapter3 = () => {
           <li>Enrojecimientos</li>
           <li>Heridas</li>
           <li>Ampollas</li>
-          <li>Hematomas</li>
+          <li>Hematomas
+
+        </li>
         </ul>
 
-        <h2>3.4. Orden recomendado de lavado en cama</h2>
+        <h2 className="font-bold">3.4. Orden recomendado de lavado en cama</h2>
         <ol>
           <li>Cara (solo con agua), orejas y cuello</li>
           <li>Brazos y axilas; permitir que se lave las manos si puede</li>
@@ -158,8 +162,6 @@ const Chapter3 = () => {
           </Button>
         </Link>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Chapter3;
