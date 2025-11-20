@@ -154,7 +154,7 @@ Estadio I</h3>
           <p className="mb-0">Ante la aparición de cualquier lesión cutánea, consulte siempre con profesionales sanitarios para valoración y tratamiento adecuado. Las úlceras por presión requieren cuidados especializados.</p>
         </div>
 
-        <h2 className="bg-lime-100 text-center">8.5. Tratamiento básico</h2>
+        <h2 className="bg-lime-100 text-center text-2xl font-bold">8.5. Tratamiento básico</h2>
         <p>
 
 El tratamiento debe ser realizado por profesionales de enfermería. El cuidador puede colaborar:</p>
