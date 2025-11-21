@@ -91,7 +91,7 @@ const Chapter7 = () => {
           </ul>
         </div>
 
-        <h2>7.3. Cuidados generales asociados a la incontinencia</h2>
+        <h2 className="bg-slate-100 text-xl text-center font-bold">7.3. Cuidados generales asociados a la incontinencia</h2>
 
         <h3>Higiene diaria</h3>
         <ul>
@@ -123,7 +123,7 @@ const Chapter7 = () => {
           <li>Evitar ropa ajustada que aumente la presión</li>
         </ul>
 
-        <h2>7.4. Impacto emocional de la incontinencia</h2>
+        <h2 className="py-[3px] my-[20px] text-center text-lg bg-slate-100">7.4. Impacto emocional de la incontinencia</h2>
         <p>La incontinencia no es solo un problema físico. Genera con frecuencia:</p>
         <ul>
           <li>Vergüenza</li>
