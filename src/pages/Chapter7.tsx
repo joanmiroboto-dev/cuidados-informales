@@ -16,9 +16,14 @@ const Chapter7 = () => {
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-muted-foreground lead">
           La incontinencia urinaria es la pérdida involuntaria de orina que afecta significativamente la calidad de vida de las personas mayores. No es una consecuencia normal del envejecimiento, sino un problema de salud que puede prevenirse, tratarse o paliarse.
+
+
         </p>
 
-        <h2>7.1. Tipos de incontinencia urinaria</h2>
+        <h2>
+
+7.1. Tipos de incontinencia urinaria
+      </h2>
 
         <h3>A) Incontinencia de esfuerzo</h3>
         <p>Pérdida de orina al realizar actividades que aumentan la presión abdominal:</p>
