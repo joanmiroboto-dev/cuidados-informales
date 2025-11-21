@@ -45,22 +45,28 @@ const Chapter7 = () => {
         <ul>
           <li>Limitaciones físicas</li>
           <li>Problemas cognitivos</li>
-          <li>Barreras arquitectónicas</li>
+          <li>Barreras arquitectónicas
+
+        </li>
         </ul>
 
-        <h2 className="py-[30px]">7.2. Productos de apoyo para la incontinencia</h2>
+        <h2 className="py-[3px] text-xl text-center bg-slate-100">7.2. Productos de apoyo para la incontinencia</h2>
 
-        <h3>A) Absorbentes (empapadores, pañales, compresas)</h3>
+        <h3 className="text-lg">
+
+A) Absorbentes (empapadores, pañales, compresas)</h3>
         <h4>Recomendaciones de uso:</h4>
         <ul>
           <li>Seleccionar la talla y capacidad adecuadas</li>
           <li>Cambiar con frecuencia suficiente para mantener piel seca</li>
           <li>Realizar higiene antes de cada cambio</li>
           <li>Aplicar crema barrera si hay irritación</li>
-          <li>Desechar correctamente en contenedor</li>
+          <li>Desechar correctamente en contenedor
+
+        </li>
         </ul>
 
-        <h3>B) Colectores externos (preservativos urinarios)</h3>
+        <h3 className="text-lg">B) Colectores externos (preservativos urinarios)</h3>
         <p>Dispositivos que se ajustan al pene y conectan a una bolsa recolectora.</p>
         <h4>Recomendaciones:</h4>
         <ul>
@@ -123,7 +129,7 @@ const Chapter7 = () => {
           <li>Evitar ropa ajustada que aumente la presión</li>
         </ul>
 
-        <h2 className="py-[3px] my-[20px] text-center text-lg bg-slate-100">7.4. Impacto emocional de la incontinencia</h2>
+        <h2 className="py-[3px] my-[20px] text-center text-lg bg-slate-100 font-bold">7.4. Impacto emocional de la incontinencia</h2>
         <p>La incontinencia no es solo un problema físico. Genera con frecuencia:</p>
         <ul>
           <li>Vergüenza</li>
