@@ -29,7 +29,7 @@ const Chapter7 = () => {
         <p>Pérdida de orina al realizar actividades que aumentan la presión abdominal:</p>
         <ul>
           <li>Toser</li>
-          <li>Estornudar</li>
+          <li className="py-[3px]">Estornudar</li>
           <li>Reír</li>
           <li>Levantar peso</li>
         </ul>
