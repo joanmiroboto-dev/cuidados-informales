@@ -48,7 +48,7 @@ const Chapter7 = () => {
           <li>Barreras arquitectónicas</li>
         </ul>
 
-        <h2>7.2. Productos de apoyo para la incontinencia</h2>
+        <h2 className="py-[30px]">7.2. Productos de apoyo para la incontinencia</h2>
 
         <h3>A) Absorbentes (empapadores, pañales, compresas)</h3>
         <h4>Recomendaciones de uso:</h4>
