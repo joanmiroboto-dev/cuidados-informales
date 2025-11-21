@@ -81,7 +81,7 @@ const Home = () => {
         backgroundImage: `url(${heroImage})`
       }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/80" />
-          <div className="relative h-full flex flex-col justify-center px-8 md:px-16 text-white">
+          <div className="relative h-full flex flex-col justify-center px-8 md:px-16 text-white bg-transparent">
             <h1 className="text-4xl font-bold mb-4 md:text-4xl">Cuidados Informales en entorno domiciliario</h1>
             <p className="text-xl md:text-2xl mb-2 max-w-2xl">Material cedido por la autora:</p>
             <p className="text-lg font-semibold max-w-2xl">Silvia Navarro Soriano</p>
