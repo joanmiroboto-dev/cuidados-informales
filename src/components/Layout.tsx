@@ -88,14 +88,10 @@ export const Layout = ({
             </Sheet>
             <div className="flex items-center gap-4">
               <a href="https://www.lacasagrande.org" target="_blank" rel="noopener noreferrer">
-                <img 
-                  src={logoLaCasaGrande} 
-                  alt="La Casa Grande" 
-                  className="h-10 w-auto hover:opacity-80 transition-opacity"
-                />
+                <img src={logoLaCasaGrande} alt="La Casa Grande" className="h-10 w-auto hover:opacity-80 transition-opacity" />
               </a>
               <Link to="/">
-                <span className="font-semibold hidden sm:inline-block text-3xl hover:opacity-80 transition-opacity">Curso Cuidados Informales en entorno domiciliario</span>
+                <span className="font-semibold hidden sm:inline-block hover:opacity-80 transition-opacity text-2xl">Curso Cuidados Informales en entorno domiciliario</span>
               </Link>
             </div>
           </div>
