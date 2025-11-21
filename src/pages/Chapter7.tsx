@@ -34,7 +34,7 @@ const Chapter7 = () => {
           <li>Levantar peso</li>
         </ul>
 
-        <h3>B) Incontinencia de urgencia</h3>
+        <h3 className="py-[3px]">B) Incontinencia de urgencia</h3>
         <p>Pérdida de orina precedida por una necesidad imperiosa e inmediata de orinar, sin tiempo suficiente para llegar al baño.</p>
 
         <h3>C) Incontinencia por rebosamiento</h3>
