@@ -333,6 +333,10 @@ const Chapter6 = () => {
         </div>
       </div>
 
+      <div className="flex justify-center pt-6 print:hidden">
+        <PrintButton />
+      </div>
+
       <div className="flex justify-between items-center pt-8 border-t print:hidden">
         <Link to="/capitulo-5">
           <Button variant="outline" size="lg">
