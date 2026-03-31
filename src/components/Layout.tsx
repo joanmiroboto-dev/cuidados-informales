@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Menu, X } from 'lucide-react';
+import { Home, Menu } from 'lucide-react';
+import { SearchDialog } from '@/components/SearchDialog';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { useState } from 'react';
@@ -95,6 +96,7 @@ export const Layout = ({
               </Link>
             </div>
           </div>
+          <SearchDialog />
         </div>
       </header>
 
