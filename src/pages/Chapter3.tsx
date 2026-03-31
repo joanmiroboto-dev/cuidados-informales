@@ -377,7 +377,7 @@ const Chapter3 = () => {
         </div>
       </div>
 
-      <div className="flex justify-between pt-8 border-t">
+      <div className="flex justify-between items-center pt-8 border-t print:hidden">
         <Link to="/capitulo-2">
           <Button variant="outline" size="lg">
             <ChevronLeft className="mr-2 h-4 w-4" />
