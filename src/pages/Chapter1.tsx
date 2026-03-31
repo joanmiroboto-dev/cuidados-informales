@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Heart, AlertTriangle, Users, Clock, Phone, Lightbulb, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter1-selfcare.jpg';
 
 const Chapter1 = () => {

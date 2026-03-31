@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Eye, Ear, Heart, Activity, Users, Brain, Droplets } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter2-aging.jpg';
 
 const Chapter2 = () => {

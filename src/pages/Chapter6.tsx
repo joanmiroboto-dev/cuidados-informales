@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Apple, Droplets, Utensils, AlertTriangle, Activity, Pill } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter6-nutrition.jpg';
 
 const Chapter6 = () => {

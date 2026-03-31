@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Shirt, CheckCircle2, XCircle, ShoppingBag, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter4-clothing.jpg';
 
 const Chapter4 = () => {

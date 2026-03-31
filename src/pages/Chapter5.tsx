@@ -4,6 +4,7 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ChevronRight, ChevronLeft, Move, Shield, User, AlertCircle, ArrowRightLeft, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter5-mobility.jpg';
 
 const Chapter5 = () => {

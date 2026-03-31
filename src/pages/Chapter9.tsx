@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight, ChevronLeft, AlertTriangle, Lightbulb, Heart, Shield, CheckCircle2, Info, Phone, Home, Activity, Eye, Bath, Footprints } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import chapterImg from '@/assets/chapter9-falls.jpg';

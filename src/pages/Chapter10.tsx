@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { ChevronLeft, Pill, AlertTriangle, Lightbulb, Heart, Shield, CheckCircle2, Info, Clock, Eye, Droplets, ThermometerSun, Wind } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
