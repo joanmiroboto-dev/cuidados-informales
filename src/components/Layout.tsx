@@ -96,6 +96,7 @@ export const Layout = ({
               </Link>
             </div>
           </div>
+          <SearchDialog />
         </div>
       </header>
 
