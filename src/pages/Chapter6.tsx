@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Apple, Droplets, Utensils, AlertTriangle, Activity, Pill } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter6-nutrition.jpg';
 
 const Chapter6 = () => {
@@ -332,7 +333,11 @@ const Chapter6 = () => {
         </div>
       </div>
 
-      <div className="flex justify-between pt-8 border-t">
+      <div className="flex justify-center pt-6 print:hidden">
+        <PrintButton />
+      </div>
+
+      <div className="flex justify-between items-center pt-8 border-t print:hidden">
         <Link to="/capitulo-5">
           <Button variant="outline" size="lg">
             <ChevronLeft className="mr-2 h-4 w-4" />

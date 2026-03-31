@@ -4,6 +4,7 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { ChevronRight, ChevronLeft, Droplets, Shield, Eye, Hand, Heart, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter3-hygiene.jpg';
 
 const Chapter3 = () => {
@@ -377,7 +378,11 @@ const Chapter3 = () => {
         </div>
       </div>
 
-      <div className="flex justify-between pt-8 border-t">
+      <div className="flex justify-center pt-6 print:hidden">
+        <PrintButton />
+      </div>
+
+      <div className="flex justify-between items-center pt-8 border-t print:hidden">
         <Link to="/capitulo-2">
           <Button variant="outline" size="lg">
             <ChevronLeft className="mr-2 h-4 w-4" />

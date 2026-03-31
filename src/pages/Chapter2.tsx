@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { ChevronRight, ChevronLeft, Eye, Ear, Heart, Activity, Users, Brain, Droplets } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { PrintButton } from '@/components/PrintButton';
 import chapterImg from '@/assets/chapter2-aging.jpg';
 
 const Chapter2 = () => {
@@ -296,7 +297,11 @@ const Chapter2 = () => {
         </div>
       </div>
 
-      <div className="flex justify-between pt-8 border-t">
+      <div className="flex justify-center pt-6 print:hidden">
+        <PrintButton />
+      </div>
+
+      <div className="flex justify-between items-center pt-8 border-t print:hidden">
         <Link to="/capitulo-1">
           <Button variant="outline" size="lg">
             <ChevronLeft className="mr-2 h-4 w-4" />
