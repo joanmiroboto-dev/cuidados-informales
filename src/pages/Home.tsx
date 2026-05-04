@@ -77,22 +77,21 @@ const Home = () => {
   return <div className="space-y-12">
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-2xl">
-        <div className="relative h-[400px] bg-cover bg-center" style={{
-        backgroundImage: `url(${heroImage})`
-      }}>
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/80" />
-          <div className="relative h-full flex flex-col justify-center px-8 md:px-16 text-white bg-transparent">
-            <h1 className="text-4xl font-bold mb-4 md:text-4xl">Cuidados Informales en entorno domiciliario</h1>
-            <p className="text-xl md:text-2xl mb-2 max-w-2xl">Material cedido por la autora:</p>
-            <p className="text-lg font-semibold max-w-2xl">Silvia Navarro Soriano</p>
-            <p className="text-lg opacity-90 max-w-2xl">
-              Enfermera SESCV y Docente UV
-            </p>
-            <p className="text-sm opacity-80 max-w-2xl mt-2">
-              Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia
-            </p>
-          </div>
-        </div>
+        <img
+          src={heroImage}
+          alt="Curso Cuidados Informales en entorno domiciliario"
+          className="w-full h-auto block"
+        />
+      </section>
+
+      {/* Autoría */}
+      <section className="text-center space-y-1">
+        <p className="text-base text-muted-foreground">Material cedido por la autora:</p>
+        <p className="text-lg font-semibold">Silvia Navarro Soriano</p>
+        <p className="text-base text-muted-foreground">Enfermera SESCV y Docente UV</p>
+        <p className="text-sm text-muted-foreground">
+          Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia
+        </p>
       </section>
 
       {/* Intro */}
