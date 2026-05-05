@@ -96,7 +96,7 @@ const Home = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Colegio Oficial de Enfermería de Valencia"
-          className="inline-block"
+          className="inline-block rounded-lg transition-all duration-300 hover:scale-105 hover:drop-shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
         >
           <img
             src={logoColegioEnfermeria}
