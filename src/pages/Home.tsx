@@ -12,6 +12,10 @@ import chapter7Img from '@/assets/chapter7-incontinence.jpg';
 import chapter8Img from '@/assets/chapter8-pressure.jpg';
 import chapter9Img from '@/assets/chapter9-falls.jpg';
 import chapter10Img from '@/assets/chapter10-medication.jpg';
+import logoAjuntament from '@/assets/logos/ajuntament-valencia.png';
+import logoDiputacio from '@/assets/logos/diputacio-valencia.svg';
+import logoGva from '@/assets/logos/gva.png';
+import logoLaCaixa from '@/assets/logos/lacaixa.png';
 const chapters = [{
   id: 1,
   title: 'Cuídese para poder cuidar',
@@ -141,19 +145,21 @@ const Home = () => {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { name: 'Ajuntament de València', url: 'https://www.valencia.es' },
-            { name: 'Diputació de València', url: 'https://www.dival.es' },
-            { name: 'Conselleria de Servicis Socials, Família i Infància', url: 'https://inclusio.gva.es' },
-            { name: 'Fundación La Caixa', url: 'https://fundacionlacaixa.org' },
+            { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es', logo: logoAjuntament },
+            { name: 'Diputació de València', url: 'https://www.dival.es', logo: logoDiputacio },
+            { name: 'Conselleria de Servicis Socials, Família i Infància', url: 'https://inclusio.gva.es', logo: logoGva },
+            { name: 'Fundación La Caixa', url: 'https://fundacionlacaixa.org', logo: logoLaCaixa },
           ].map((entity) => (
             <a
               key={entity.name}
               href={entity.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center text-center p-6 rounded-lg border bg-card hover:shadow-[var(--card-shadow-hover)] transition-all min-h-[120px]"
+              title={entity.name}
+              aria-label={entity.name}
+              className="flex items-center justify-center p-6 rounded-lg border bg-card hover:shadow-[var(--card-shadow-hover)] transition-all min-h-[140px]"
             >
-              <span className="text-sm font-medium text-foreground">{entity.name}</span>
+              <img src={entity.logo} alt={entity.name} className="max-h-20 max-w-full object-contain" />
             </a>
           ))}
         </div>
