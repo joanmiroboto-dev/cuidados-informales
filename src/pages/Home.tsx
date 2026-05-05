@@ -145,10 +145,10 @@ const Home = () => {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es', logo: logoAjuntament },
-            { name: 'Diputació de València', url: 'https://www.dival.es', logo: logoDiputacio },
-            { name: 'Conselleria de Servicis Socials, Família i Infància', url: 'https://inclusio.gva.es', logo: logoGva },
-            { name: 'Fundación La Caixa', url: 'https://fundacionlacaixa.org', logo: logoLaCaixa },
+            { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es/-/ayuntamiento-bienestar-social', logo: logoAjuntament },
+            { name: 'Diputació de València', url: 'https://www.dival.es/', logo: logoDiputacio },
+            { name: 'Conselleria de Servicis Socials, Famílies i Igualtat - Generalitat Valenciana', url: 'https://inclusio.gva.es/', logo: logoGva },
+            { name: 'Fundación "la Caixa" - Obra Social', url: 'https://fundacionlacaixa.org/', logo: logoLaCaixa },
           ].map((entity) => (
             <a
               key={entity.name}
