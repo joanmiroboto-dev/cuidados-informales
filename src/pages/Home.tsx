@@ -130,6 +130,34 @@ const Home = () => {
             </Link>)}
         </div>
       </section>
+
+      {/* Cofinanciadores */}
+      <section className="space-y-6 border-t pt-10">
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl font-bold">Cofinanciadores</h2>
+          <p className="text-sm text-muted-foreground">
+            Con la participación y cofinanciación de las siguientes entidades
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { name: 'Ajuntament de València', url: 'https://www.valencia.es' },
+            { name: 'Diputació de València', url: 'https://www.dival.es' },
+            { name: 'Conselleria de Servicis Socials, Família i Infància', url: 'https://inclusio.gva.es' },
+            { name: 'Fundación La Caixa', url: 'https://fundacionlacaixa.org' },
+          ].map((entity) => (
+            <a
+              key={entity.name}
+              href={entity.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center text-center p-6 rounded-lg border bg-card hover:shadow-[var(--card-shadow-hover)] transition-all min-h-[120px]"
+            >
+              <span className="text-sm font-medium text-foreground">{entity.name}</span>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>;
 };
 export default Home;
