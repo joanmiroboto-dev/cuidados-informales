@@ -90,13 +90,13 @@ const Home = () => {
       </section>
 
       {/* Autoría */}
-      <section className="flex flex-col items-center text-center space-y-3">
+      <section className="flex flex-col sm:flex-row items-center sm:items-center gap-6 text-center sm:text-left">
         <a
           href="https://www.enfervalencia.org/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Colegio Oficial de Enfermería de Valencia"
-          className="inline-block rounded-lg transition-all duration-300 hover:scale-105 hover:drop-shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+          className="inline-block shrink-0 rounded-lg transition-all duration-300 hover:scale-105 hover:drop-shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
         >
           <img
             src={logoColegioEnfermeria}
