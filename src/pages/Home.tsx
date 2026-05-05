@@ -147,7 +147,7 @@ const Home = () => {
           {[
             { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es/-/ayuntamiento-bienestar-social', logo: logoAjuntament },
             { name: 'Diputació de València', url: 'https://www.dival.es/', logo: logoDiputacio },
-            { name: 'Conselleria de Servicis Socials, Famílies i Igualtat - Generalitat Valenciana', url: 'https://inclusio.gva.es/', logo: logoGva },
+            { name: 'Conselleria de Servicis Socials, Famílies i Igualtat - Generalitat Valenciana', url: 'https://serviciossociales.gva.es/va/web/integracion-inclusionsocial-cooperacion', logo: logoGva },
             { name: 'Fundación "la Caixa" - Obra Social', url: 'https://fundacionlacaixa.org/', logo: logoLaCaixa },
           ].map((entity) => (
             <a
