@@ -84,7 +84,7 @@ const Home = () => {
       <section className="relative overflow-hidden rounded-2xl">
         <img
           src={heroImage}
-          alt="Curso Cuidados Informales en entorno domiciliario"
+          alt="CUIDADOS INFORMALES EN ENTORNO DOMICILIARIO"
           className="w-full h-auto block"
         />
       </section>
