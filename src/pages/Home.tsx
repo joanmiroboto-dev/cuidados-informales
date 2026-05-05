@@ -145,7 +145,7 @@ const Home = () => {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es/-/ayuntamiento-bienestar-social', logo: logoAjuntament },
+            { name: 'Ajuntament de València - Servicis Socials', url: 'https://www.valencia.es/-/infociudad-%C3%A1rea-de-bienestar-social', logo: logoAjuntament },
             { name: 'Diputació de València', url: 'https://www.dival.es/va/grupo/benestar-social', logo: logoDiputacio },
             { name: 'Conselleria de Servicis Socials, Famílies i Igualtat - Generalitat Valenciana', url: 'https://serviciossociales.gva.es/va/web/integracion-inclusionsocial-cooperacion', logo: logoGva },
             { name: 'Fundación "la Caixa" - Obra Social', url: 'https://fundacionlacaixa.org/', logo: logoLaCaixa },
