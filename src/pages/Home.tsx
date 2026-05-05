@@ -16,6 +16,7 @@ import logoAjuntament from '@/assets/logos/ajuntament-valencia.png';
 import logoDiputacio from '@/assets/logos/diputacio-valencia.svg';
 import logoGva from '@/assets/logos/gva.png';
 import logoLaCaixa from '@/assets/logos/lacaixa.png';
+import logoColegioEnfermeria from '@/assets/logos/colegio-enfermeria-valencia.png';
 const chapters = [{
   id: 1,
   title: 'Cuídese para poder cuidar',
@@ -89,13 +90,28 @@ const Home = () => {
       </section>
 
       {/* Autoría */}
-      <section className="text-center space-y-1">
-        <p className="text-base text-muted-foreground">Material cedido por la autora:</p>
-        <p className="text-lg font-semibold">Silvia Navarro Soriano</p>
-        <p className="text-base text-muted-foreground">Enfermera SESCV y Docente UV</p>
-        <p className="text-sm text-muted-foreground">
-          Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia
-        </p>
+      <section className="flex flex-col items-center text-center space-y-3">
+        <a
+          href="https://www.enfervalencia.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Colegio Oficial de Enfermería de Valencia"
+          className="inline-block"
+        >
+          <img
+            src={logoColegioEnfermeria}
+            alt="Colegio Oficial de Enfermería de Valencia"
+            className="h-24 w-auto object-contain"
+          />
+        </a>
+        <div className="space-y-1">
+          <p className="text-base text-muted-foreground">Material cedido por la autora:</p>
+          <p className="text-lg font-semibold">Silvia Navarro Soriano</p>
+          <p className="text-base text-muted-foreground">Enfermera SESCV y Docente UV</p>
+          <p className="text-sm text-muted-foreground">
+            Asociación La Casa Grande - Colegio Oficial de Enfermería de Valencia
+          </p>
+        </div>
       </section>
 
       {/* Intro */}
